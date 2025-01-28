@@ -10,6 +10,8 @@ def main():
     # Appel des fonctions des exercices
     exercice1()
     exercice2()
+
+    print("Exécution de l'exercice 3")
     exercice3()
     
     print("Fin du programme principal")
