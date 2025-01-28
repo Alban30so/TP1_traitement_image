@@ -1,3 +1,4 @@
+import numpy as np
 #Question 1:
 
 # Calcul les prix soldés d'un vêtement,
@@ -14,3 +15,16 @@ print(f"Prix du vêtement: {prixVetement}\n"
       f"Avec -20%: {prixSolde20}\n"
       f"Avec -40%: {prixSolde40}\n"
       f"Avec -50%: {prixSolde50}")
+
+
+#Question 2:
+
+# tableau 3x4 généré aléatoirement
+tab = np.random.randint(1, 32, (3, 4), dtype=int)
+print(f"Tableau 3x4 généré:\n{tab}")
+# somme des éléments pour chaque colonne du tableau
+sommeColonnes = np.sum(tab, axis=0)
+print(f"Somme colonne: {sommeColonnes}")
+# somme des éléments pour chaque ligne du tableau
+sommeLignes = np.sum(tab, axis=1)
+print(f"Somme ligne: {sommeLignes}")
