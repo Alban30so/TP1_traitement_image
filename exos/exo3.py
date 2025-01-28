@@ -1,7 +1,6 @@
 import cv2 as cv
 
 def exercice3():
-    print("exercice 3")
 
     # read the image 
     img = cv.imread("src/images/boules.png") 
