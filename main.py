@@ -1,6 +1,7 @@
 from exos.exo1 import exercice1
 from exos.exo2 import exercice2
 from exos.exo3 import exercice3
+from exos.traitement import traitement1
 
 # import cv2 as cv
 
@@ -8,12 +9,17 @@ def main():
     print("Début du programme principal")
     
     # Appel des fonctions des exercices
+    print("\nExercice 1 : ")
     exercice1()
+    print("\nExercice 2 : ")
     exercice2()
-
-    print("Exécution de l'exercice 3")
+    print("\nExercice 3 : ")
     exercice3()
-    
+    print("\nExercice 4 : ")
+    traitement1()
+
+
+
     print("Fin du programme principal")
 
 if __name__ == "__main__":
