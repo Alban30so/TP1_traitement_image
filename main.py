@@ -1,7 +1,7 @@
 from exos.exo1 import exercice1
 from exos.exo2 import exercice2
 from exos.exo3 import exercice3
-from exos.traitement import traitement1
+from exos.traitement import traitement1, traitement2, traitement3
 
 # import cv2 as cv
 
@@ -17,7 +17,8 @@ def main():
     exercice3()
     print("\nExercice 4 : ")
     traitement1()
-
+    tmp=traitement2()
+    traitement3(tmp)
 
 
     print("Fin du programme principal")
