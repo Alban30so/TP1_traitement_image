@@ -2,6 +2,7 @@ from exos.exo1 import exercice1
 from exos.exo2 import exercice2
 from exos.exo3 import exercice3
 from exos.traitement import traitement1, traitement2, traitement3
+from exos.contour import contour
 
 # import cv2 as cv
 
@@ -16,9 +17,10 @@ def main():
     print("\nExercice 3 : ")
     exercice3()
     print("\nExercice 4 : ")
-    traitement1()
+    image_binary = traitement1()
     tmp=traitement2()
-    traitement3(tmp)
+    tmp2 = traitement3(tmp)
+    contour(image_binary)
 
 
     print("Fin du programme principal")

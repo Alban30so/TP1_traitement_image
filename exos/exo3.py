@@ -3,7 +3,7 @@ import cv2 as cv
 def exercice3():
 
     # read the image 
-    img = cv.imread("src/images/boules.png") 
+    img = cv.imread("src/images/GE141002.bmp") 
     
     # showing the image 
     cv.imshow('boules', img) 
